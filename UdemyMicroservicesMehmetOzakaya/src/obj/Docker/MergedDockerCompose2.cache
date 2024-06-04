@@ -1,0 +1,12 @@
+name: dockercompose259161517300514788
+services:
+  catalogdb:
+    environment:
+      POSTGRES_PASSWORD: example
+    image: postgres
+    networks:
+      default: null
+    restart: always
+networks:
+  default:
+    name: dockercompose259161517300514788_default

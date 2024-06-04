@@ -1,0 +1,25 @@
+this project is class library, we will put the shared code between all services and the shared nuget package
+in this projuct to avoid duplicating the code, for example we will use the CQRS in more than one service 
+so we put the code here 
+
+
+Covariance (out): Allows a more derived type. It is used when the type parameter is returned (output).
+Contravariance (in): Allows a more general type. It is used when the type parameter is accepted (input).
+
+
+Use out for covariance when you need to return the generic type.
+Use in for contravariance when you need to accept (input) the generic type.
+
+
+note >> we will remove the carter package from here and install it in every micorservices because
+app.mapcarter() search for the class which implement  ICarterModule in the project which the carted is installed 
+in it so it will search in the buildingblocks project and there are no endpoints in this project and 
+there is no configuration for the carter like the mediator which i can determine the project which it will
+scan on it 
+like this 
+
+builder.Services.AddMediatR(config =>
+{
+    // scan the assembly to find the all request handlers and register them
+    config.RegisterServicesFromAssembly(typeof(Program).Assembly);
+});
