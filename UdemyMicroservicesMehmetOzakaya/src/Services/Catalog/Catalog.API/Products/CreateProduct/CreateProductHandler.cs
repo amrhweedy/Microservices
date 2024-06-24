@@ -41,7 +41,7 @@ public class CreateProductCommandHandler(IDocumentSession session) : ICommandHan
         };
 
         // todo >>> save database
-        session.Store(product); // if there is no table prodcuts in the database the marten library will create it automatically
+        session.Store(product); // if there is no table products in the database the marten library will create it automatically
         await session.SaveChangesAsync(cancellationToken);
 
         return new CreateProductResult(product.Id);

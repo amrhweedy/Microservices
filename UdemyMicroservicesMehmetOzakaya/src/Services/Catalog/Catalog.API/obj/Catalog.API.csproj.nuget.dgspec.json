@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\UdemyMicroservicesMehmetOzakaya\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
+    "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "E:\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+    "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+        "projectUniqueName": "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
         "projectName": "BuildingBlocks",
-        "projectPath": "E:\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+        "projectPath": "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
         "packagesPath": "C:\\Users\\sys\\.nuget\\packages\\",
-        "outputPath": "E:\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\obj\\",
+        "outputPath": "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
               "version": "[11.9.1, )"
@@ -78,14 +86,14 @@
         }
       }
     },
-    "E:\\UdemyMicroservicesMehmetOzakaya\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
+    "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\UdemyMicroservicesMehmetOzakaya\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "E:\\UdemyMicroservicesMehmetOzakaya\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectPath": "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "packagesPath": "C:\\Users\\sys\\.nuget\\packages\\",
-        "outputPath": "E:\\UdemyMicroservicesMehmetOzakaya\\src\\Services\\Catalog\\Catalog.API\\obj\\",
+        "outputPath": "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\Services\\Catalog\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -102,8 +110,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
-                "projectPath": "E:\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+              "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+                "projectPath": "E:\\Microservices\\UdemyMicroservicesMehmetOzakaya\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
               }
             }
           }
@@ -123,6 +131,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.NpgSql": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Carter": {
               "target": "Package",
               "version": "[8.2.0, )"

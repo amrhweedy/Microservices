@@ -10,3 +10,16 @@ E:\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\n
 E:\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\refint\BuildingBlocks.dll
 E:\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.pdb
 E:\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\ref\BuildingBlocks.dll
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.deps.json
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.dll
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.pdb
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.csproj.AssemblyReference.cache
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.AssemblyInfoInputs.cache
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.AssemblyInfo.cs
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.csproj.CoreCompileInputs.cache
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.sourcelink.json
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.dll
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\refint\BuildingBlocks.dll
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.pdb
+E:\Microservices\UdemyMicroservicesMehmetOzakaya\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\ref\BuildingBlocks.dll
