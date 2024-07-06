@@ -1,0 +1,6 @@
+﻿
+basket service will publish integration event >>> BasketCheckoutIntegrationEvent
+this event will go to the message broker (rabbitMq)
+the order service will consume this event and will create an order
+then the order service will publish domain event >>> OrderCreatedDomainEvent
+this event will be handled inside the order service and the order service will publish OrderCreatedIntegrationEvent because may be there are some services need to consume this event

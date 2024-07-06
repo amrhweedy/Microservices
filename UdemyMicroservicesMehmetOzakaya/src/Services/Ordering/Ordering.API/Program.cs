@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 // the 3 extension methods extend the IServiceCollection so the Services property (which return object ) can call or access these 3 extension methods 
 
 builder.Services
-    .AddApplicationServices()
+    .AddApplicationServices(builder.Configuration)
     .AddInfrastructureServices(builder.Configuration)
     .AddApiServices(builder.Configuration);
 
