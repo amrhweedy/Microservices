@@ -1,5 +1,6 @@
-﻿namespace BuildingBlocks.Pagination;
-public class PaginationResult<TEntity>(int pageIndex, int pageSize, long count, IEnumerable<TEntity> data)
+﻿namespace Shopping.Web.Models.Ordering;
+
+public class PaginatedResult<TEntity>(int pageIndex, int pageSize, long count, IEnumerable<TEntity> data)
     where TEntity : class
 {
     public int PageIndex { get; } = pageIndex;

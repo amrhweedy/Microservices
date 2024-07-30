@@ -1,6 +1,4 @@
-﻿using Basket.API.Data;
-using Discount.GRPC;
-using FluentValidation;
+﻿using Discount.GRPC;
 
 namespace Basket.API.Basket.StoreBasket;
 
@@ -15,7 +13,7 @@ public class StoreBasketCommandValidator : AbstractValidator<StoreBasketCommand>
         RuleFor(x => x.Cart.UserName).NotEmpty().WithMessage("UserName is required");
     }
 }
-public class StoreBasketCommandHandler(IBasketRepository basketRepository,DiscountProtoService.DiscountProtoServiceClient discountProto) : ICommandHandler<StoreBasketCommand, StoreBasketResult>
+public class StoreBasketCommandHandler(IBasketRepository basketRepository, DiscountProtoService.DiscountProtoServiceClient discountProto) : ICommandHandler<StoreBasketCommand, StoreBasketResult>
 {
     public async Task<StoreBasketResult> Handle(StoreBasketCommand command, CancellationToken cancellationToken)
     {
@@ -23,9 +21,9 @@ public class StoreBasketCommandHandler(IBasketRepository basketRepository,Discou
 
         await DeductDiscount(command.Cart, cancellationToken);
 
-         await basketRepository.StoreBasket(command.Cart, cancellationToken);
+        await basketRepository.StoreBasket(command.Cart, cancellationToken);
 
-         return new StoreBasketResult(command.Cart.UserName);
+        return new StoreBasketResult(command.Cart.UserName);
 
     }
 
