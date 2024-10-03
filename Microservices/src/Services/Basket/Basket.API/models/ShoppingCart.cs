@@ -10,10 +10,6 @@ public class ShoppingCart
         UserName = userName;
     }
 
-    // required for mapping 
-    public ShoppingCart()
-    {
-        
-    }
+
 
 }
